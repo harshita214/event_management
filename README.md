@@ -22,6 +22,18 @@ Logged-In	 Users:	Registered	users	 who	have  access	to additional	features,	inc
 
 ![image](https://github.com/harshita214/event_management/assets/79797000/ab58e531-ad47-48ac-8490-c5ff5ada8684)
 
+## Screens
+![image](https://github.com/harshita214/event_management/assets/79797000/275594e4-8583-459e-8130-2e41efe05f6a)
+
+![image](https://github.com/harshita214/event_management/assets/79797000/8278ef59-4387-4ca9-98fa-b7a1a9567d9b)
+
+![image](https://github.com/harshita214/event_management/assets/79797000/a7387b2a-e7ef-4475-8aa0-efe20d6facf1)
+
+![image](https://github.com/harshita214/event_management/assets/79797000/89e93bb9-c409-4d09-916d-e9c2aa4eb737)
+
+![image](https://github.com/harshita214/event_management/assets/79797000/76314968-cf20-4e62-80bc-b1a7c649bb8a)
+
+![image](https://github.com/harshita214/event_management/assets/79797000/ce47746e-2158-4bbd-9700-0db1134a8184)
 
 
 
