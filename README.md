@@ -20,6 +20,9 @@ Logged-In	 Users:	Registered	users	 who	have  access	to additional	features,	inc
 
 ## Flow Chart
 
+![image](https://github.com/harshita214/event_management/assets/79797000/ab58e531-ad47-48ac-8490-c5ff5ada8684)
+
+
 
 
 
