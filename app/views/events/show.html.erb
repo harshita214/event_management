@@ -1,0 +1,22 @@
+<!-- app/views/events/show.html.erb -->
+
+<div class="event-show">
+  <h1><%= @event.name %></h1>
+  <p>Date: <%= @event.date %></p>
+  <p>Location: <%= @event.location %></p>
+  <p>Description: <%= @event.description %></p>
+
+  <%= link_to 'Edit', edit_event_path(@event), class: 'btn btn-primary' %>
+
+  <% if user_signed_in? %>
+    <% if current_user.events.include?(@event) %>
+      <%= link_to 'Unregister', unregister_event_path(@event), method: :delete, class: 'btn btn-danger' %>
+    <% else %>
+      <%= link_to 'Register', register_event_path(@event), method: :post, class: 'btn btn-primary' %>
+    <% end %>
+  <% else %>
+    <p>Sign in to register for this event.</p>
+  <% end %>
+
+  <%= link_to 'Back', events_path, class: 'back-link' %>
+</div>

@@ -1,0 +1,26 @@
+<!-- app/views/events/index.html.erb -->
+
+<header>
+  <h1>Event Management</h1>
+</header>
+
+<div class="container">
+  <% if user_signed_in? %>
+    <%= link_to 'Create Event', new_event_path, class: 'btn btn-primary' %>
+  <% end %>
+
+  <ul>
+    <% @events.each do |event| %>
+      <li>
+        <h2><%= link_to event.name, event %></h2>
+        <p><strong>Date:</strong> <%= event.date %></p>
+        <p><strong>Location:</strong> <%= event.location %></p>
+        <p><strong>Description:</strong> <%= event.description %></p>
+        <% if user_signed_in? %>
+          <%= link_to 'Edit', edit_event_path(event), class: 'edit-link' %>
+          <%= link_to 'Delete', event_path(event), method: :delete, class: 'btn btn-danger', data: { confirm: 'Are you sure?' } %>
+        <% end %>
+      </li>
+    <% end %>
+  </ul>
+</div>

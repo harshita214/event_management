@@ -1,0 +1,47 @@
+/* app/assets/stylesheets/events.css */
+
+/* Style for the event page */
+.event-show {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .event-show h1 {
+    color: #2D9596;
+    /* Adjust other styles as needed */
+  }
+  
+  .event-show p {
+    color: #265073;
+    /* Adjust other styles as needed */
+  }
+  
+  .event-show .actions {
+    margin-top: 20px;
+    /* Adjust other styles as needed */
+  }
+  
+  .event-show .btn-primary {
+    background-color: #9AD0C2;
+    color: #265073;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  
+  .event-show .btn-danger {
+    background-color: #ECF4D6;
+    color: #265073;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  
+  .event-show .back-link {
+    color: #265073;
+    text-decoration: none;
+    margin-top: 20px;
+    display: inline-block;
+    /* Adjust other styles as needed */
+  }
+  
